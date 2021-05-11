@@ -62,9 +62,14 @@ public class MainActivity extends AppCompatActivity {
     private void setupEventHandlers() {
         // list of all the clickable views
         List<View> clickableViews = new ArrayList<>(
-                Arrays.asList(binding.boxOneText, binding.boxTwoText, binding.boxThreeText,
-                        binding.boxFourText, binding.boxFiveText, binding.constraintLayout,
-                        binding.redButton, binding.yellowButton, binding.greenButton)
+                Arrays.asList(binding.boxOneText,
+                        binding.boxTwoText,
+                        binding.boxThreeText,
+                        binding.boxFourText,
+                        binding.boxFiveText,
+                        binding.redButton,
+                        binding.yellowButton,
+                        binding.greenButton)
         );
 
         // setting the on click listeners to all the views using loop
